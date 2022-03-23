@@ -157,6 +157,9 @@
     <ClCompile Include="DecisionComponent.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="FineniteFlockingMachine.cpp" />
+    <ClCompile Include="Flock.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="IdleDecision.cpp" />
     <ClCompile Include="InputComponent.cpp" />
     <ClCompile Include="InrangeDecision.cpp" />
@@ -190,7 +193,10 @@
     <ClInclude Include="Component.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Engine.h" />
+    <ClInclude Include="FineniteFlockingMachine.h" />
     <ClInclude Include="FleeComponent.h" />
+    <ClInclude Include="Flock.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="IdleDecision.h" />
     <ClInclude Include="InputComponent.h" />
     <ClInclude Include="InrangeDecision.h" />

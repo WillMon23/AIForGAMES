@@ -15,6 +15,9 @@
     <Filter Include="Decision">
       <UniqueIdentifier>{897f84f4-75a6-4a7e-815f-60d700c56426}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Flock">
+      <UniqueIdentifier>{14a86a8c-6f42-475e-9d97-16c339087438}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -106,6 +109,15 @@
     </ClCompile>
     <ClCompile Include="IdleDecision.cpp">
       <Filter>Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flock.cpp">
+      <Filter>Flock</Filter>
+    </ClCompile>
+    <ClCompile Include="FineniteFlockingMachine.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +213,15 @@
     </ClInclude>
     <ClInclude Include="IdleDecision.h">
       <Filter>Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flock.h">
+      <Filter>Flock</Filter>
+    </ClInclude>
+    <ClInclude Include="FineniteFlockingMachine.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

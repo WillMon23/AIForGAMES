@@ -1,5 +1,6 @@
 #include "Player.h"
 #include "InputComponent.h"
+#include "Transform2D.h"
 #include "RotateComponent.h"
 #include "MoveComponent.h"
 #include "SpriteComponent.h"
@@ -7,6 +8,7 @@
 void Player::start()
 {
 	Actor::start();
+	getTransform()->setScale({ 25,25 });
 
 	m_inputComponent = addComponent<InputComponent>();
 
